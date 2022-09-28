@@ -5,6 +5,7 @@ flake8~=5.0.4 # modular source code checker: pep8 pyflakes and co
 isort~=5.10.1 # library to sort Python imports.
 mypy~=0.981 # Optional static typing for Python
 setuptools~=65.3.0 # Easily download, build, install, upgrade, and uninstall Python packages
+setuptools-scm~=7.0.5 # the blessed package to manage your versions by scm tags
 twine~=4.0.1 # Collection of utilities for publishing packages on PyPI
 
 # Documentation related Libraries

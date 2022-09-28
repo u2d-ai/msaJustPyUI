@@ -4,7 +4,7 @@ from os.path import basename, dirname, isfile, join
 from .jpcore import *
 from .justpy import *
 
-version = "0.0.1"
+version = "0.0.2"
 __author__ = "Stefan Welcker"
 __copyright__ = "Copyright 2022, U2D.ai"
 __license__ = "MIT"

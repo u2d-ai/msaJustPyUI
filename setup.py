@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 from setuptools import setup, find_packages
 
-
 # Parse version number from msaJustPyUI/__init__.py:
 with open('msaJustPyUI/__init__.py') as f:
     info = {}
@@ -9,7 +8,6 @@ with open('msaJustPyUI/__init__.py') as f:
         if line.startswith('version'):
             exec(line, info)
             break
-
 
 setup_info = dict(
     name='msaJustPyUI',
@@ -50,7 +48,10 @@ setup_info = dict(
 
     # Package info
     packages=['msaJustPyUI'] + ['msaJustPyUI.' + pkg for pkg in find_packages('msaJustPyUI')],
-
+    package_dir={"": "msaJustPyUI"},
+    package_data={
+        "": ['*']
+    },
     # Add _ prefix to the names of temporary build dirs
     options={'build': {'build_base': '_build'}, },
     zip_safe=True,

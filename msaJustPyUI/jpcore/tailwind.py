@@ -1833,7 +1833,7 @@ class Tailwind:
                 d[j] = k
         return d
 
-    tw_reverse_dict = create_reverse_dict(tw_dict)
+    tw_reverse_dict = create_reverse_dict.__func__(tw_dict)
 
     def set_class(self, tw_class, modifier=""):
         if modifier and modifier not in Tailwind.pseudo_classes:

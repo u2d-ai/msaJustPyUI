@@ -10,8 +10,6 @@ with open('msaJustPyUI/__init__.py') as f:
             break
 
 setup_info = dict(
-    use_scm_version=True,
-    setup_requires=['setuptools_scm'],
     name='msaJustPyUI',
     version=info['version'],
     author='Stefan Welcker',
@@ -53,6 +51,7 @@ setup_info = dict(
     # Add _ prefix to the names of temporary build dirs
     options={'build': {'build_base': '_build'}, },
     zip_safe=True,
+    include_package_data=True
 )
 
 setup(**setup_info)

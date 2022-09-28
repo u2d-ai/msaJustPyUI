@@ -17,19 +17,8 @@
 ------
 
 ## Features
-- **TODO**: TODO.
+- **Integrated justpy WEB UI**: Integrated justpy UI Web Framework to FastAPI/Starlette, which allows simple adding of routes to justpy webpages functions.
 
-
-## Main Dependencies
-
-- Just Python > 3.7
-- 
-
-
-### Usage example
-```python
-{!./docs_src/home/index_first.py!}
-```
 
 ## License Agreement
 

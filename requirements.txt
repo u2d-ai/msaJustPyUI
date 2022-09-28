@@ -1,0 +1,17 @@
+# General Dependencies
+addict~=2.4.0 # Addict is a dictionary whose items can be set using both attribute and item syntax.
+aiofiles~=22.1.0 # handling local disk files in asyncio applications
+types-aiofiles~=22.1.0 # Typing stubs for aiofiles
+httpx~=0.23.0 # The next generation HTTP client.
+hjson~=3.1.0 # Hjson, a user interface for JSON.
+itsdangerous~=2.1.2 # Safely pass data to untrusted environments and back.
+loguru~=0.6.0 # Python logging made (stupidly) simple
+Markdown~=3.3.7 # implementation of Markdown.
+multidict~=6.0.2 # Multidict is dict-like collection of key-value pairs where key might be occurred more than once in the container.
+numpy~=1.23.3 # NumPy is the fundamental package for array computing with Python.
+pandas~=1.4.4 # Powerful data structures for data analysis, time series, and statistics
+psutil~=5.9.2 # Cross-platform lib for process and system monitoring in Python.
+pydantic~=1.9.2 # Data validation and settings management using python type hints
+python-dotenv~=0.20.0 # reads key-value pairs from a .env file and can set them as environment variables.
+starlette~=0.20.4 # Starlette is a lightweight ASGI framework/toolkit, which is ideal for building async web services in Python.
+
